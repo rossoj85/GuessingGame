@@ -146,6 +146,7 @@ $(document).ready(function(){
         $('#subtittle').text('Guess a number between 1-100!')
         $('.guessboxes li').text('-');
         $('#hint, #submit').prop("disabled",false);
+        $('#subtittle').next().remove();
     });
 
 })
